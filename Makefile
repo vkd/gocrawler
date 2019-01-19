@@ -1,3 +1,6 @@
+.PHONY: test build clean docker_build docker run
+.DEFAULT_GOAL := docker
+
 test:
 	go test ./...
 
